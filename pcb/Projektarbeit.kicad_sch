@@ -1,0 +1,1293 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1028a1cc-4790-4ae8-a6d4-4c0d8b1db084")
+	(paper "A4")
+	(title_block
+		(title "LPRD_MainBoard")
+	)
+	(lib_symbols
+		(symbol "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WCAP-CSGP_1210_H2.0"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WCAP-CSGP_1210_H2.0_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.6426 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.9279 0) (xy 2.5705 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 209.55 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b26ff4c-c5e7-4aca-819c-0fa3f2fbaf0a")
+	)
+	(junction
+		(at 85.09 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cb7733f-b927-443d-a455-4529c10a0fe1")
+	)
+	(junction
+		(at 85.09 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83a7123f-7714-4f09-8785-6f12d7449af4")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 93.98 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a76ab0-b521-4287-99da-977c997bff92")
+	)
+	(wire
+		(pts
+			(xy 177.8 115.57) (xy 185.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bb3239-a812-44e9-a568-5b2dc73407df")
+	)
+	(wire
+		(pts
+			(xy 127 127) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194d2231-95ec-4ae5-8974-cdf149b714d6")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5b0826-4081-408f-afaa-d8dd3d8d37f9")
+	)
+	(wire
+		(pts
+			(xy 93.98 106.68) (xy 101.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf3c012-aac1-4e78-800f-533a0e2e942f")
+	)
+	(wire
+		(pts
+			(xy 181.61 106.68) (xy 209.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a00da54-ad3a-46dc-a2a1-9eaa40ff2f44")
+	)
+	(wire
+		(pts
+			(xy 78.74 111.76) (xy 85.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd6383e-35ea-4859-9ce0-7892871a0b84")
+	)
+	(wire
+		(pts
+			(xy 127 100.33) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb07edf-c59d-4439-8c0b-94a341ceb125")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61993581-8626-4de4-bb67-b356da29f144")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9aea40-712f-488c-8727-475cfe1cbd71")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 213.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be00005-2cce-45f8-8f73-a2c286b9d7df")
+	)
+	(wire
+		(pts
+			(xy 127 124.46) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d5fedf-1208-46a5-b94d-6d306062031b")
+	)
+	(wire
+		(pts
+			(xy 93.98 109.22) (xy 101.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890a2db3-6b9c-48c0-8d37-582c5d03d767")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 209.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af003ea-c03f-4f32-83fb-c717d1c97ccd")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 181.61 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb61891-40fe-4e93-8258-6ac2ff314fc4")
+	)
+	(wire
+		(pts
+			(xy 93.98 104.14) (xy 93.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e72ade4-1efe-4fb7-b06c-cf706cd7cad5")
+	)
+	(wire
+		(pts
+			(xy 201.93 115.57) (xy 209.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca7b1f8-a0a4-40ca-b7a9-ebfdc671657b")
+	)
+	(wire
+		(pts
+			(xy 213.36 96.52) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a456071e-b186-44ec-b752-79ec2d63091d")
+	)
+	(wire
+		(pts
+			(xy 209.55 96.52) (xy 209.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e212aa-b6d1-4569-a262-1e9de3bf7d3d")
+	)
+	(wire
+		(pts
+			(xy 127 137.16) (xy 134.62 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48bf744-ea4d-4bb6-b43e-34e6677b3660")
+	)
+	(wire
+		(pts
+			(xy 127 83.82) (xy 213.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b81efaa6-b665-487f-8b09-9e496420a4b6")
+	)
+	(wire
+		(pts
+			(xy 93.98 109.22) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c7b089-c50c-4131-8d0d-4e47afd91ecc")
+	)
+	(wire
+		(pts
+			(xy 181.61 113.03) (xy 181.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f3b00a-80d6-440d-bf53-ab23059d1fe9")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 85.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d163c0a9-ad2c-440b-887d-d3c622ef7ee8")
+	)
+	(wire
+		(pts
+			(xy 127 113.03) (xy 134.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfac1670-ed92-4d7a-8811-121651fcad98")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 213.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c16326-9666-480f-ad7d-865dacc20b30")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 134.62 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed30e28d-51e2-407b-9263-5e9328afbfa7")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 160.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f046072b-15a2-490d-8962-9a7add3cc191")
+	)
+	(wire
+		(pts
+			(xy 85.09 111.76) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69a95af-aa24-4b20-9c57-63e4354a61d9")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 213.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabd8681-fff2-4f53-9adb-69ae312a51ee")
+	)
+	(wire
+		(pts
+			(xy 213.36 93.98) (xy 204.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa0fe4a-d95d-49b1-aa10-02e569ee33c1")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 78.74 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bf37b1f-32e7-47a4-89b0-325d78f2c4bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.773 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 204.47 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af269194-c5f9-4c02-a91e-dbfcd537049f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.503 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape bidirectional)
+		(at 78.74 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de4af49c-0ca9-4cad-ac51-4dd861f1aecd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.0149 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0")
+		(at 85.09 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8ea4adb-b5a1-4e21-84c4-f06b6103b007")
+		(property "Reference" "C5"
+			(at 88.138 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 88.138 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:WCAP-CSGP_1210_H2.0"
+			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6adbdf4f-a292-46cd-a75a-21110e1da9a6")
+		)
+		(pin "2"
+			(uuid "89df521c-eb5a-4307-b784-97b2d3515397")
+		)
+		(instances
+			(project "Projektarbeit"
+				(path "/1028a1cc-4790-4ae8-a6d4-4c0d8b1db084"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 110.49)
+		(size 17.78 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 248 237 193 1.0000)
+		)
+		(uuid "232ddb2b-69c3-4818-ab18-a9845bd9789c")
+		(property "Sheetname" "Switch"
+			(at 160.02 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch.kicad_sch"
+			(at 160.02 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3V3" output
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "17c76e59-ce4f-4946-ad64-67bdca6c73fa")
+		)
+		(pin "Booster" output
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07a02794-17db-4fad-bcab-6ec34671ab59")
+		)
+		(pin "Switch" input
+			(at 160.02 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "991c779b-daab-4834-b48a-6220cc6bbfca")
+		)
+		(instances
+			(project "Projektarbeit"
+				(path "/1028a1cc-4790-4ae8-a6d4-4c0d8b1db084"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 110.49)
+		(size 17.78 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 248 237 193 1.0000)
+		)
+		(uuid "2361c76a-0000-42cb-aa44-c3461bc71fc2")
+		(property "Sheetname" "Display-Enable"
+			(at 134.366 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "enable.kicad_sch"
+			(at 134.62 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "EN" input
+			(at 134.62 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20299554-e4d0-4baa-84cc-ee31ee0ba112")
+		)
+		(pin "Switch" output
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ebc97624-5a34-42a3-a854-6ddc6896641f")
+		)
+		(instances
+			(project "Projektarbeit"
+				(path "/1028a1cc-4790-4ae8-a6d4-4c0d8b1db084"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 95.25)
+		(size 17.78 10.16)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 248 237 193 1.0000)
+		)
+		(uuid "32bcf7d7-b272-4949-bc00-36972eb6493e")
+		(property "Sheetname" "Akkuanschlüsse"
+			(at 134.62 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "akku.kicad_sch"
+			(at 134.62 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Akku+" output
+			(at 134.62 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a52d1fe7-acff-4c14-b382-8d93ff71a605")
+		)
+		(pin "Spannungsteiler" output
+			(at 134.62 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7a8c7cd7-803c-4cd3-bbe0-882bd86e13f1")
+		)
+		(pin "Akku-" output
+			(at 134.62 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "617076a0-6754-4f08-a7ab-aaab9d49e45c")
+		)
+		(instances
+			(project "Projektarbeit"
+				(path "/1028a1cc-4790-4ae8-a6d4-4c0d8b1db084"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 121.92)
+		(size 17.78 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 248 237 193 1.0000)
+		)
+		(uuid "4dfb7361-3a21-4b5b-a0fa-71ae1b382b97")
+		(property "Sheetname" "IIC-Erweiterung"
+			(at 134.62 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "iic.kicad_sch"
+			(at 134.62 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IIC_SDA" bidirectional
+			(at 134.62 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3b78282b-e3f1-4333-b4d8-e01bee345b8e")
+		)
+		(pin "IIC_SCL" bidirectional
+			(at 134.62 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c155436d-cb02-46be-bc08-ee7f46793980")
+		)
+		(instances
+			(project "Projektarbeit"
+				(path "/1028a1cc-4790-4ae8-a6d4-4c0d8b1db084"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 113.03)
+		(size 16.51 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 248 237 193 1.0000)
+		)
+		(uuid "59cafbec-114a-49f9-8cbf-a8efab413b02")
+		(property "Sheetname" "Boost-Converter"
+			(at 185.42 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stepup.kicad_sch"
+			(at 185.42 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VOUT+" output
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db82ec9a-ada2-4810-b497-6185e07b2e77")
+		)
+		(pin "VIN+" input
+			(at 185.42 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3f3b40b-b99a-47d4-af35-55cc8f258eb7")
+		)
+		(instances
+			(project "Projektarbeit"
+				(path "/1028a1cc-4790-4ae8-a6d4-4c0d8b1db084"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 76.2)
+		(size 25.4 63.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 248 237 193 1.0000)
+		)
+		(uuid "8d4e6bfd-38eb-43e3-92b4-abd49b9763e6")
+		(property "Sheetname" "Mikrocontroller"
+			(at 101.6 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mikrocontroller.kicad_sch"
+			(at 101.6 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Akku-" input
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7091f29f-64ee-4d13-b6eb-1534c44a2c8d")
+		)
+		(pin "Akku+" input
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6a9c3e1-f5fe-4657-a966-8030c603b2b2")
+		)
+		(pin "RST" bidirectional
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2281068-2fef-43f0-8e93-108976b11a76")
+		)
+		(pin "DC" bidirectional
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73119483-5555-4751-8793-e46805d47d7b")
+		)
+		(pin "CS" bidirectional
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7f89ae2-aac2-4c29-a9ad-36b6bdf74bf9")
+		)
+		(pin "BUSY" bidirectional
+			(at 127 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d6ce25f-1f13-4fa2-8e8f-837411375c74")
+		)
+		(pin "EN" bidirectional
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3324bd2-2d8e-4f15-9b00-92c25e66a79b")
+		)
+		(pin "IIC_SDA" bidirectional
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f38b103-5a52-43e1-bb8d-9a2e261715d2")
+		)
+		(pin "IIC_SCL" bidirectional
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d6abb30-5121-42e9-b9ca-aab65bef4e13")
+		)
+		(pin "Knopf" bidirectional
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "826a4727-37bb-4376-9231-fb46931002d3")
+		)
+		(pin "SCLK" bidirectional
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54496ef3-9ba4-4f4e-bb15-073044fad72c")
+		)
+		(pin "DIN" bidirectional
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "02e07497-bd8a-48b1-a023-72067a83da65")
+		)
+		(pin "Spannungteiler" bidirectional
+			(at 127 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7cb58ea-bd3e-4dfa-8a5a-ef171b4bd6bb")
+		)
+		(pin "GND" bidirectional
+			(at 101.6 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "742dab96-8e45-413d-bdcb-e1fca4e3c78a")
+		)
+		(pin "3V3" output
+			(at 101.6 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "08815170-cf84-42db-bbb7-7a5972be3232")
+		)
+		(pin "5V" output
+			(at 101.6 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbe1d1dd-4aef-4524-8702-22da9575041f")
+		)
+		(instances
+			(project "Projektarbeit"
+				(path "/1028a1cc-4790-4ae8-a6d4-4c0d8b1db084"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 76.2)
+		(size 17.78 22.86)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 248 237 193 1.0000)
+		)
+		(uuid "bf7720b2-f987-4a03-89f2-60f97ca6b614")
+		(property "Sheetname" "Displayanschlüsse"
+			(at 213.36 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display_ports.kicad_sch"
+			(at 213.36 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CS" bidirectional
+			(at 213.36 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "923837b5-0517-4036-bebc-3abaae2e3d45")
+		)
+		(pin "DC" bidirectional
+			(at 213.36 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "505ef944-6bfb-41ac-ad3f-1910981d7597")
+		)
+		(pin "RST" bidirectional
+			(at 213.36 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44e45d45-c32c-446f-84fc-d9959f7d6de1")
+		)
+		(pin "SCLK" bidirectional
+			(at 213.36 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b8fb355-0518-4715-b8ad-7cb383af6c94")
+		)
+		(pin "BUSY" bidirectional
+			(at 213.36 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81bde592-a784-4be5-b405-7aae18548672")
+		)
+		(pin "VCC" bidirectional
+			(at 213.36 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cdea72e8-86c1-4e2a-aa70-80a9f2691854")
+		)
+		(pin "GND" bidirectional
+			(at 213.36 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab1bfe85-a3f5-41f5-bab6-dc1b17497f52")
+		)
+		(pin "DIN" bidirectional
+			(at 213.36 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d81c5b77-5923-4b76-bbb5-8012a6aef7ba")
+		)
+		(instances
+			(project "Projektarbeit"
+				(path "/1028a1cc-4790-4ae8-a6d4-4c0d8b1db084"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 134.62)
+		(size 17.78 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 248 237 193 1.0000)
+		)
+		(uuid "e6d4b1f7-c8bc-4520-b02b-7d28ee7dd240")
+		(property "Sheetname" "Refresh-Knopf"
+			(at 134.62 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "knopf.kicad_sch"
+			(at 134.62 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Knopf" bidirectional
+			(at 134.62 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc8972af-c994-4210-b5a0-08f616fe0ef6")
+		)
+		(instances
+			(project "Projektarbeit"
+				(path "/1028a1cc-4790-4ae8-a6d4-4c0d8b1db084"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
