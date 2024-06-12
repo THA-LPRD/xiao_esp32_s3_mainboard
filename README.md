@@ -2,7 +2,7 @@
 ## Main Board PCB for the first project at Technical University of Applied Science Augsburg
 ### Explanation
 This repo contains the KiCad 8 files for the Main Board of the project. \
-Necessary files are located in the src folder, whilst the 3D-models, symbols and footprints can be found in the models, symbols, and footprints folders. \
+Necessary files are located in the src folder, whilst the 3D-models, symbols and footprints can be found in the models, symbols, and footprints folders. 
 ### Functionality
 The Main Board is designed to be a host board for XIAO ESP32-S3 board. \
 XIAO ESP32-S3 Documentation can be found under this link: https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/ \
