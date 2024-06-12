@@ -2,9 +2,9 @@
 ## Main Board PCB for the first project at Technical University of Applied Science Augsburg
 ### Explanation
 This repo contains the KiCad 8 files for the Main Board of the project. \
-Necessary files are located in the src folder, whilst the 3D-models, symbols and footprints can be found in the models, symbols, and footprints folders. \
+Necessary files are located in the src folder, whilst the 3D-models, symbols and footprints can be found in the models, symbols, and footprints folders.
 ### Functionality
-The Main Board is designed to be a host board for XIAO ESP32-S3 board. 
+The Main Board is designed to be a host board for XIAO ESP32-S3 board. \
 XIAO ESP32-S3 Documentation can be found under this link: https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/ \
 The PCB is designed to be powered by a battery (I used two Li-Ion 5400 mAh batteries connected in parallel and connected to a 1S 2 MOSFETs BMS. \
 The main functionality of the board is to power an e-paper display and upload pictures to it using SPI protocol. The e-paper display in question is this one: https://www.waveshare.com/7.3inch-e-paper-hat-f.htm \
